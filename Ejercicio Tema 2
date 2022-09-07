@@ -1,0 +1,17 @@
+package com.example;
+
+public class EjerciciosTema2JavaBasico {
+
+    public static void main(String[] args) {
+
+         double precio1 = 200.00;
+         double iva = 48.00;
+         double precio = getPrice(precio1, iva);
+        System.out.println(precio);
+    }
+
+    static double getPrice(double precio1, double iva){
+        return (precio1 + iva);
+    }
+
+}
